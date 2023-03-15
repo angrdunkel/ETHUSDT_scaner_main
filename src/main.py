@@ -41,7 +41,8 @@ if __name__ == '__main__':
     start_real_price = get_real_price(next_price, start_price)
     
     old_price = next_price
-    for i in range(600):
+    #for i in range(600):
+    while True:
         price_now =  main()
         
         now_real_price = get_real_price(price_now, old_price)
